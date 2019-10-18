@@ -1,0 +1,146 @@
+body{
+   /* background-color: #7bc893; */
+   /* background-color:  rgba(255,0,0,0.5); */
+   /* background-color:  rgb(255,0,0); */
+   background-image: linear-gradient(135deg, rgb(82, 238, 212), rgb(60, 109, 231), #23A6D5, #23D5AB);
+   background-size: 400% 400%;
+   -webkit-animation: Gradient 15s ease infinite;
+   -moz-animation: Gradient 15s ease infinite;
+   animation: Gradient 15s ease infinite;
+}
+
+* {
+    text-decoration: none;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/* index.html Header */
+.logo{
+    width: 100px;
+    margin-left: 100px;
+    padding: 20px 0;
+}
+
+header nav ul{
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+header nav ul li{
+    display: block;
+    list-style: none;
+    display: inline-block;
+    padding: 0 16px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header{
+    width: 100%;
+    color: white;
+    font-family:'Lato', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* index.html main */
+.container img{
+    margin: 20px;
+    max-width: 250px;
+    max-height: 250px;
+}
+.container .text{
+    padding-left: 100px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.container {
+    margin-top: 100px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.img_circle{
+    /*border-radius: 10px 40px 70px 4px; */
+    border-radius: 50%;
+}
+
+/* contact.html */
+form div{
+    margin-bottom: 14px;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"], input[type="email"], input[type="message"], 
+textarea{
+    background: rgba(255,255,255, .5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="message"]{
+    height: 6rem;
+}
+
+/* photography.html */
+.pcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pcontainer img{
+    margin: 10px;
+    max-width: 100%;
+    max-height: 300px;
+    width: auto;
+}
+
+/* footer */
+.footer-sm{
+    float: right;
+}
+footer .footer-sm img{
+    width: 40px;
+}
